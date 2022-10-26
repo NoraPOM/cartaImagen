@@ -9,6 +9,7 @@ import com.example.cartaImagen.service.CartaService;
 @Service
 public class CartaImpl implements CartaService {
     private Tamano tamanoHoja = new Tamano (2480, 3508);
+
     @Override
 
     public Tamano ajustarTamano (Tamano tamanoImagen) {
