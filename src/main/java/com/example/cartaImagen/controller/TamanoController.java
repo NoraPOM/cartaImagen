@@ -19,6 +19,7 @@ public class TamanoController {
     @PostMapping
     public ResponseEntity<Tamano> create(@RequestBody Tamano tamano){
         System.out.println("Primera persona del cambio Andrea");
+        System.out.println("Segunda persona del cambio Marce");
         System.out.println("Tercera persona del cambio Ana");
         System.out.println("Cuarta persona del cambio Norita");
         return ResponseEntity.ok(cartaService.ajustarTamano(tamano));
