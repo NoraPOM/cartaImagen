@@ -18,6 +18,7 @@ public class TamanoController {
 
     @PostMapping
     public ResponseEntity<Tamano> create(@RequestBody Tamano tamano){
+        System.out.println("Primera persona del cambio Andrea");
         return ResponseEntity.ok(cartaService.ajustarTamano(tamano));
     }
 }
