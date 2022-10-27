@@ -20,7 +20,7 @@ public class TamanoController {
     public ResponseEntity<Tamano> create(@RequestBody Tamano tamano){
         System.out.println("Primera persona del cambio Andrea");
         System.out.println("Tercera persona del cambio Ana");
-        System.out.println("Cuarta persona del cambio Nora");
+        System.out.println("Cuarta persona del cambio Nora O");
         return ResponseEntity.ok(cartaService.ajustarTamano(tamano));
     }
 }
